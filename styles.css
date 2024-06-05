@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    background-color: rgb(150, 245, 245);
+    box-sizing: border-box;
+}
+
+.lorem {
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: 0px solid blueviolet;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: rgb(150, 245, 245);
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0rem 4rem;
+    padding-top: 2rem;
+}    
+
+.pic-name {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    border: 2px solid yellowgreen;
+    margin-right: 10px;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0rem 0rem 1rem 0rem;
+}
+
+.about-me {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    margin: 40px 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0rem 0rem 1rem 0rem;
+    background-color: antiquewhite;
+}
+
+img {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.logo-1 {
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+}
+
+.logo {
+    width: 20px;
+}
+
+.right {
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+}
+
+
+
+.project-name {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.name {
+    left: 3rem;
+    bottom: 0;
+    position: absolute;
+    color: aqua;
+}
+
+
+
+.second {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.work {
+    padding: 20px;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 0px;
+    
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    flex-basis: 33%;
+    flex-shrink: auto;
+    flex-grow: 0;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background-color: antiquewhite;
+    border-radius: 0px;
+    box-shadow: 0rem 0rem 1rem 0rem;
+    max-width: 25rem;
+}
+
+.bottom {
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: antiquewhite;
+    box-shadow: 0rem 0rem 1rem 0rem;
+    display: flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 110rem;
+}
+
+.phone {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 10px;
+    padding-top: 6px;
+}
+
+.contact {
+    flex-shrink: auto;
+    flex-grow: auto;
+    flex-basis: 45%;
+    justify-content: center;
+}
+
+.side-pic {
+    justify-content: right;
+    flex-grow: auto;
+    flex-shrink: auto;
+    flex-basis: 33%;
+    justify-self: right;
+    width: 100;
+    height: auto;
+    box-shadow: 0rem 0rem 1rem 0rem;
+    max-width: 25rem;
+}
